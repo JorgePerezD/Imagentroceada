@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Imagen troceada</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 180px);
+            grid-template-rows: repeat(3, 270px);
+        }
+        [class*="d"]{
+            width: 650;
+            height: 838px;
+            overflow: hidden;
+        }
+
+        .d1{
+            grid-column-start:1;
+            grid-column-end:2;
+            grid-row-start:1;
+            grid-row-end:2;
+        }
+        .d1 img{
+            opacity:1;
+        }
+        .d1:hover img{
+            opacity: 0.5;
+            transition: 1s opacity;
+        }
+        }
+        .d2 img{
+            grid-column-start:2;
+            grid-column-end:3;
+            grid-row-start:1;
+            grid-row-end:2;
+            opacity: 1;
+            transition:  opacity;
+        }
+        .d2:hover img{
+            opacity: 0.4;
+        }
+        .d2:hover{
+            background: yellow;
+        }
+        d3 img{
+            
+            opacity: 1;
+            transition: 0.5s opacity;
+        }
+        .d3:hover img{
+            opacity: 0.4;
+        }
+        .d3:hover{
+            background: red;
+        }
+        .d4 img{
+            
+            opacity: 1;
+            transition: 0.5s opacity;
+        }
+        .d4:hover img{
+            opacity: 0.4;
+        }
+        .d4:hover{
+            background: red;
+        }
+        .d5 img{
+            
+            opacity: 1;
+            transition: 0.5s opacity;
+        }
+        .d5:hover img{
+            opacity: 0.4;
+        }
+        .d5:hover{
+            background: yellow;
+        }
+        .d6 img{
+            
+            opacity: 1;
+            transition: 0.5s opacity;
+        }
+        .d6:hover img{
+            opacity: 0.4;
+        }
+        .d6:hover{
+            background: blue;
+        }
+        .d7 img{
+            
+            opacity: 1;
+            transition: 0.5s opacity;
+        }
+        .d7:hover img{
+            opacity: 0.4;
+        }
+        .d7:hover{
+            background: #742e69;
+        }
+        .d8 img{
+            
+            opacity: 1;
+            transition: 0.5s opacity;
+        }
+        .d8:hover img{
+            opacity: 0.4;
+        }
+        .d8:hover{
+            background: #00ff0a;
+        }
+        .d9 img{
+            
+            opacity: 1;
+            transition: 0.5s opacity;
+        }
+        .d9:hover img{
+            opacity: 0.4;
+        }
+        .d9:hover{
+            background: #ff6200;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="d1">
+                <img src="img/images/lee_01.gif" alt="i1">
+            </div>
+            <div class="d2">
+                <img src="img/images/lee_02.gif" alt="i2">
+            </div>
+            <div class="d3">
+                <img src="img/images/lee_03.gif" alt="i3">
+            </div>
+            <div class="d4">
+                <img src="img/images/lee_04.gif" alt="i4">
+            </div>
+            <div class="d5">
+                <img src="img/images/lee_05.gif" alt="i5">
+            </div>
+            <div class="d6">
+                <img src="img/images/lee_06.gif" alt="i6">
+            </div>
+            <div class="d7">
+                <img src="img/images/lee_07.gif" alt="i7">
+            </div>
+            <div class="d8">
+                <img src="img/images/lee_08.gif" alt="i8">
+            </div>
+            <div class="d9">
+                <img src="img/images/lee_09.jpg" alt="i9">
+            </div>
+    </div>
+</body>
+</html>
